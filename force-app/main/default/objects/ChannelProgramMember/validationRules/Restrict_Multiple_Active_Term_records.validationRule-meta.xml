@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Multiple_Active_Term_records</fullName>
+    <active>true</active>
+    <errorConditionFormula>Num_of_Active_Term_records__c &gt; 1</errorConditionFormula>
+    <errorMessage>Only one Term record can be active at a time. Either delete or deactivate the existing active Term record then try again.</errorMessage>
+</ValidationRule>

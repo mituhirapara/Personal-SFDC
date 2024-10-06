@@ -1,0 +1,133 @@
+<template>
+  <lightning-record-edit-form record-id={recordId} object-api-name="PartnerFundRequest">
+    <!-- <div class="slds-form" role="list">
+      <div class="slds-form__row">
+        <div class="slds-form__item" role="listitem">
+          <div
+            class="slds-form-element slds-form-element_stacked slds-is-editing"
+          >
+            <label
+            class="slds-form-element__label"
+            for="stacked-form-element-id-01"
+          >
+            <abbr class="slds-required" title="required">* </abbr>Assigned
+            To</label
+          >
+          <div class="slds-form-element__control">
+            <input
+              type="text"
+              id="stacked-form-element-id-01"
+              readonly=""
+              required=""
+              class="slds-input"
+              value="Jack Rogers"
+            />
+          </div> 
+          <lightning-input-field field-name="Activity" ></lightning-input-field>
+          </div>
+        </div>
+        <div class="slds-form__item" role="listitem">
+            <div
+              class="slds-form-element slds-form-element_stacked slds-is-editing"
+            >
+               <label
+              class="slds-form-element__label"
+              for="stacked-form-element-id-01"
+            >
+              <abbr class="slds-required" title="required">* </abbr>Assigned
+              To</label
+            >
+            <div class="slds-form-element__control">
+              <input
+                type="text"
+                id="stacked-form-element-id-01"
+                readonly=""
+                required=""
+                class="slds-input"
+                value="Jack Rogers"
+              />
+            </div> 
+            <lightning-input-field field-name="Description" ></lightning-input-field>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div class="slds-form" role="list">
+        <div class="slds-form__row">
+          <div class="slds-form__item" role="listitem">
+            <div
+              class="slds-form-element slds-form-element_stacked slds-is-editing"
+            >
+               <label
+              class="slds-form-element__label"
+              for="stacked-form-element-id-01"
+            >
+              <abbr class="slds-required" title="required">* </abbr>Assigned
+              To</label
+            >
+            <div class="slds-form-element__control">
+              <input
+                type="text"
+                id="stacked-form-element-id-01"
+                readonly=""
+                required=""
+                class="slds-input"
+                value="Jack Rogers"
+              />
+            </div> 
+            <lightning-input-field field-name="Description" ></lightning-input-field>
+            </div>
+          </div>
+        </div>
+        </div> -->
+
+
+          
+        <!-- <div class="slds-grid slds-wrap">
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input-field field-name="Description" ></lightning-input-field>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input-field field-name="Activity" ></lightning-input-field>
+            </div>
+            <div class="slds-col slds-size_2-of-2">
+                <lightning-input-field field-name="Status" ></lightning-input-field>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input-field field-name="Description" ></lightning-input-field>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input-field field-name="Activity" ></lightning-input-field>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input-field field-name="Description" ></lightning-input-field>
+            </div>
+            <div class="slds-col slds-size_2-of-2">
+                <lightning-input-field field-name="Activity" ></lightning-input-field>
+            </div>
+          </div> -->
+          <lightning-layout multiple-rows>
+                <lightning-layout-item size="12">
+                    <lightning-input-field field-name="Description" variant="label-stacked"></lightning-input-field>
+                </lightning-layout-item>
+                <lightning-layout-item size="12">
+                    <lightning-input-field field-name="Activity" variant="label-stacked"></lightning-input-field>
+                </lightning-layout-item>
+                <lightning-layout-item size="6">
+                    <lightning-input-field field-name="Description" variant="label-stacked"></lightning-input-field>
+                </lightning-layout-item>
+                <lightning-layout-item size="6">
+                    <lightning-input-field field-name="Activity" variant="label-stacked"></lightning-input-field>
+                </lightning-layout-item>
+                <lightning-layout-item size="6">
+                    <lightning-input-field field-name="Description" variant="label-stacked"></lightning-input-field>
+                </lightning-layout-item>
+                <lightning-layout-item size="6">
+                    <lightning-input-field field-name="Activity" variant="label-stacked"></lightning-input-field>
+                </lightning-layout-item>
+                <lightning-layout-item size="6">
+                    <lightning-input-field field-name="Description" variant="label-stacked"></lightning-input-field>
+                </lightning-layout-item>
+          </lightning-layout>
+  </lightning-record-edit-form>
+</template>

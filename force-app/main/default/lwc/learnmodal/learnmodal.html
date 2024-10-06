@@ -1,0 +1,26 @@
+<template>
+    <template if:false={openmodel}>
+        <lightning-button label="Show Details" onclick={openmodal}></lightning-button>
+    </template>
+    <template if:true={openmodel}>
+        <div class="slds-var-p-around_small">
+
+            <lightning-layout multiple-rows>
+                <lightning-layout-item class="slds-var-m-around_x-small" size="12">
+                    <lightning-button label="BACK" variant="brand" onclick={goBack}></lightning-button>
+                </lightning-layout-item>
+                <lightning-layout-item class="slds-var-m-around_x-small" size="8">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A porro eos repellendus repudiandae aspernatur fugiat nihil et rem, rerum qui sunt. Laudantium illum perferendis corrupti velit totam non culpa nesciunt.</p>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="10">
+                    <!-- <template for:each={result} for:item="contact">
+                        <li key={contact.Id}>{contact.Name}</li>
+                    </template> -->
+                    {result}
+                    {error}
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </template>
+</template>

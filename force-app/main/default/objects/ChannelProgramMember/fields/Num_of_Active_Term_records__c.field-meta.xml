@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Num_of_Active_Term_records__c</fullName>
+    <description>Keeps count of Active term record link to a Channel Program Member</description>
+    <externalId>false</externalId>
+    <label>Num of Active Term records</label>
+    <summaryFilterItems>
+        <field>Channel_Program_Term__c.isActive__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Channel_Program_Term__c.Channel_Program_Member__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

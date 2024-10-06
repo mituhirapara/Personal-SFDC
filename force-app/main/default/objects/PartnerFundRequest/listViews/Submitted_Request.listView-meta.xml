@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submitted_Request</fullName>
+    <columns>Name</columns>
+    <columns>CreatedBy</columns>
+    <columns>Allocation</columns>
+    <columns>Campaign</columns>
+    <columns>Budget</columns>
+    <columns>Description</columns>
+    <columns>RequestedAmount</columns>
+    <columns>DesiredOutcome</columns>
+    <columns>Amount</columns>
+    <columns>Status</columns>
+    <columns>ChannelPartner</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>3</value>
+    </filters>
+    <label>Submitted Request</label>
+</ListView>

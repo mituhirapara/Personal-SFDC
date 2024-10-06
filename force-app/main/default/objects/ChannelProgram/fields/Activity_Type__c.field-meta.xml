@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Type__c</fullName>
+    <description>This field is used to control Activity type for channel program on community/portal.</description>
+    <externalId>false</externalId>
+    <label>Activity Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Activity_Type</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

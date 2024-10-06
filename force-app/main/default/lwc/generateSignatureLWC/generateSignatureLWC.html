@@ -1,0 +1,19 @@
+<template>
+    <div>
+        <label for="signature">Please enter a name</label>
+        <br>
+        <input type="text" id="signature" value={inputSign} 
+        onfocus={handleFocus}
+        />
+        <br>
+        <lightning-button variant="brand" label="Generate Sign" title="Primary action" onclick={handleClick} class="slds-m-left_large"></lightning-button>
+        <canvas id="canvas" width="250" height="50" style="border: solid 1px gray;"> 
+        </canvas> 
+        <div class="signatureContainer">
+            <div class="sign">
+                <!-- <p>{inputSign}</p> -->
+                <img src={imgSRC}></img>
+            </div>
+        </div>
+    </div>
+</template>

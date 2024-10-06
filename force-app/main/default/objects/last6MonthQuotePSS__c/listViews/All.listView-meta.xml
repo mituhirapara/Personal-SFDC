@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Base_Discount__c</columns>
+    <columns>List_Price__c</columns>
+    <columns>Product_ID__c</columns>
+    <columns>CurrencyIsoCode__c</columns>
+    <columns>Channel__c</columns>
+    <columns>Partner_tier__c</columns>
+    <columns>New_Customer_ID__c</columns>
+    <columns>Original_Quote_volume_Bkt__c</columns>
+    <columns>Region_Name__c</columns>
+    <columns>Quanity__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>hasGuidance__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>has Guidance = true</label>
+</ListView>

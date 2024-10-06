@@ -1,0 +1,14 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <div class="slds-grid slds-gutters">
+        <div class="slds-col slds-size_3-of-3">
+            <lightning-input type="text" label="Account" value={searchKey} onchange={handleNameChange}></lightning-input>
+            <br />
+            <lightning-datatable key-field="Id" data={accounts} columns={col}></lightning-datatable>
+        </div>
+        <template if:true={error}>
+            {error}
+            {accounts}
+        </template>
+    </div>
+</template>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_should_be_greaterThan_10</fullName>
+    <active>false</active>
+    <errorConditionFormula>RequestedAmount &lt; 10</errorConditionFormula>
+    <errorDisplayField>RequestedAmount</errorDisplayField>
+    <errorMessage>Requested Amount should be greater than 10</errorMessage>
+</ValidationRule>

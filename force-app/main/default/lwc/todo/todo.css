@@ -1,0 +1,11 @@
+.completed {
+    padding: 0.8rem;
+    color: rgb(5, 96, 5);
+    background-color: rgba(5, 96, 5, 0.222);
+}
+
+.incomplete {
+    padding: 0.8rem;
+    color: rgb(138, 6, 6);
+    background-color: rgba(138, 6, 6, 0.222);
+}

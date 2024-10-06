@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Active__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used for making Channel program member Inactive</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used for making Channel program member Inactive</inlineHelpText>
+    <label>Not Active</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
