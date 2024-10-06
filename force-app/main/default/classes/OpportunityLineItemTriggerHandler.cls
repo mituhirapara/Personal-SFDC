@@ -1,16 +1,20 @@
 public class OpportunityLineItemTriggerHandler {
 
     public static boolean byPassTrigger = false;
+    
 
     public static void afterInsert(Map<Id, OpportunityLineItem> newMap) {
+        if(byPassTrigger) return;
         updateOppContractStartAndEndDate(newMap);
     }
 
     public static void afterUpdate(Map<Id, OpportunityLineItem> oldMap, Map<Id, OpportunityLineItem> newMap) {
+        if(byPassTrigger) return;
         updateOppContractStartAndEndDate(newMap);
     }
 
     public static void afterDelete(Map<Id, OpportunityLineItem> oldMap) {
+        if(byPassTrigger) return;
         updateOppContractStartAndEndDate(oldMap);
     }
 
